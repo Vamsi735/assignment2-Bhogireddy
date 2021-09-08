@@ -24,5 +24,5 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
     * Facewash
 * Wallet
 * Snakes
-    *Chocolates
-    *Milk shake
+    * Chocolates
+    * Milk shake
