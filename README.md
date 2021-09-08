@@ -8,7 +8,7 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
 
 ---
 
-# Directions from Kansas City to Seatle.
+# Directions from Kansas City to Seattle.
 1. Book a cab from Maryville to Kansas airport.
 2. Finish the check-in through online.
     1.Take the Boarding pass.
@@ -16,14 +16,16 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
     3.Board the flight.
 3. Reach the seattle the explore the city.
 
+---
 
+# Items that should be brought people to Seattle for maximum enjoyment
 * Clothes
     * Shoes
     * Jacket
 * Cosmetics
     * Facewash
 * Wallet
-* Snakes
+* Snacks
     * Chocolates
     * Milk shake
 
