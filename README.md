@@ -51,11 +51,17 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
     > "Spread love everywhere you go. Let no one ever come to you without leaving happier." 
     *Mother Teresa*
 
-    -----
+ -----
+
 ## Code Fencing (Graph traversal)
 In computer science, graph traversal (also known as graph search) refers to the process of visiting (checking and/or updating) each vertex in a graph. Such traversals are classified by the order in which the vertices are visited. Tree traversal is a special case of graph traversal.<https://en.wikipedia.org/wiki/Graph_traversal>
 
+---
 
+## Code Fencing (Graph traversal)
+In computer science, graph traversal (also known as graph search) refers to the process of visiting (checking and/or updating) each vertex in a graph. Such traversals are classified by the order in which the vertices are visited. Tree traversal is a special case of graph traversal.<https://en.wikipedia.org/wiki/Graph_traversal>
+
+```
 vector<vector<int>> adj;  // adjacency list representation
 int n; // number of nodes
 int s; // source vertex
@@ -79,5 +85,5 @@ while (!q.empty()) {
         }
     }
 }
-
+```
 <https://cp-algorithms.com/graph/breadth-first-search.html>
