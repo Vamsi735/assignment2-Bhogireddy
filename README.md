@@ -59,6 +59,7 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
  
  We define a variable minEle that stores the current minimum element in the stack. Now the interesting part is, how to handle the case when minimum element is removed.
  To handle this, we push “2x – minEle” into the stack instead of x so that previous minimum element can be retrieved using current minEle and its value stored in stack.
+ 
  [Minimum Stack](https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
  
  ```
