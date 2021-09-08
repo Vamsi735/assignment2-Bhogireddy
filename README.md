@@ -56,31 +56,29 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
  -----
 
 ## Code Fencing (Graph traversal)
-In computer science, graph traversal (also known as graph search) refers to the process of visiting (checking and/or updating) each vertex in a graph. Such traversals are classified by the order in which the vertices are visited. Tree traversal is a special case of graph traversal.<https://en.wikipedia.org/wiki/Graph_traversal>
-
-```
-vector<vector<int>> adj;  // adjacency list representation
-int n; // number of nodes
-int s; // source vertex
-
-queue<int> q;
-vector<bool> used(n);
-vector<int> d(n), p(n);
-
-q.push(s);
-used[s] = true;
-p[s] = -1;
-while (!q.empty()) {
-    int v = q.front();
-    q.pop();
-    for (int u : adj[v]) {
-        if (!used[u]) {
-            used[u] = true;
-            q.push(u);
-            d[u] = d[v] + 1;
-            p[u] = v;
-        }
+ 
+ We define a variable minEle that stores the current minimum element in the stack. Now the interesting part is, how to handle the case when minimum element is removed.
+ To handle this, we push “2x – minEle” into the stack instead of x so that previous minimum element can be retrieved using current minEle and its value stored in stack.
+ [Minimum Stack](https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
+ 
+ ```
+ stack<pair<int, int>> s1, s2;
+ if (s1.empty() || s2.empty()) 
+    minimum = s1.empty() ? s2.top().second : s1.top().second;
+else
+    minimum = min(s1.top().second, s2.top().second);
+    int minimum = s1.empty() ? new_element : min(new_element, s1.top().second);
+s1.push({new_element, minimum});
+if (s2.empty()) {
+    while (!s1.empty()) {
+        int element = s1.top().first;
+        s1.pop();
+        int minimum = s2.empty() ? element : min(element, s2.top().second);
+        s2.push({element, minimum});
     }
 }
-```
-<https://cp-algorithms.com/graph/breadth-first-search.html>
+int remove_element = s2.top().first;
+s2.pop();
+ 
+ ```
+[Minimum stack / Minimum queue](https://cp-algorithms.com/data_structures/stack_queue_modification.html)
