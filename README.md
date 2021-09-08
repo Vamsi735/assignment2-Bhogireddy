@@ -28,3 +28,16 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
     * Milk shake
 
     [AboutMe](https://github.com/Vamsi735/assignment2-Bhogireddy/blob/main/AboutMe.md)
+
+
+    ---
+
+    # Table Creation 
+
+    A table with three columns recommends the some of the best foods that i experienced in India.
+
+    | Food/Drink    |   Location    | Price |
+    |   ---         |   ---         |  ---  |
+    | Mixed Biryani |   Falcons     |  $4   |
+    | Chicken Pizza |   PizzaHut    |  $3   |
+    | Burger        |   Subway      |  $2   |
