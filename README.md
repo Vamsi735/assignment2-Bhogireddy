@@ -41,3 +41,11 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
     | Mixed Biryani |   Falcons     |  $4   |
     | Chicken Pizza |   PizzaHut    |  $3   |
     | Burger        |   Subway      |  $2   |
+
+    ---
+
+    # Quotes
+
+    "Don't judge each day by the harvest you reap but by the seeds that you plant." -Robert Louis Stevenson
+
+    "Spread love everywhere you go. Let no one ever come to you without leaving happier." -Mother Teresa
