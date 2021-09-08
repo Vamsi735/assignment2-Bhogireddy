@@ -47,7 +47,7 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
     # Quotes
 
     > "Don't judge each day by the harvest you reap but by the seeds that you plant." 
-    *-Robert Louis Stevenson*     <br>
+    *Robert Louis Stevenson*     <br>
 
     > "Spread love everywhere you go. Let no one ever come to you without leaving happier." 
-    *-Mother Teresa*
+    *Mother Teresa*
