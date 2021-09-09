@@ -43,6 +43,7 @@ Vijayawada is famous city which is located near my hometown. It has famous templ
     | Mixed Biryani |   Falcons     |  $4   |
     | Chicken Pizza |   PizzaHut    |  $3   |
     | Burger        |   Subway      |  $2   |
+    | Pizza         |  Pizza Hub    |  $3   |
 
     ---
 
